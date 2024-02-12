@@ -392,6 +392,9 @@ h3 {
     position: relative;
     overflow: hidden;
 }
+.skills-heading{
+    margin-bottom: 25px;
+}
 
 .work img {
     width: 100%;
