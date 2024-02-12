@@ -375,8 +375,9 @@ h3 {
     color: #250404;
 }
 
-#portfolio {
+.portfolio {
     padding: 50px 0;
+    margin: 50px;
 }
 
 .work-list {
@@ -397,6 +398,7 @@ h3 {
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
+    height: 350px;
 }
 
 .layer {
@@ -620,11 +622,11 @@ textarea {
     align-content: center;
     align-items: center;
     background: linear-gradient(#9d00ff, rgb(33, 5, 80));
-    padding: 2%;
+    padding: 4%;
     font-family: 'EB Garamond';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 26px;
     /* identical to box height, or 72% */
     color: #FFFFFF;
