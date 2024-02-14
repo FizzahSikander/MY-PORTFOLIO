@@ -185,9 +185,11 @@
     color: black;
     margin-bottom: 30px;
 }
-.cv{
+
+.cv {
     font-size: 20px;
 }
+
 .secondpage_container-info {
     font-family: 'Josefin Sans';
     font-style: normal;
@@ -228,7 +230,7 @@
 }
 
 .sub-title span {
-    color:#c3a2e5;
+    color: #c3a2e5;
 }
 
 .skill li {
@@ -244,7 +246,7 @@
     color: black;
     padding: 20px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-
+    list-style-type: none;
 }
 
 .mySkills {
@@ -392,7 +394,8 @@ h3 {
     position: relative;
     overflow: hidden;
 }
-.skills-heading{
+
+.skills-heading {
     margin-bottom: 25px;
 }
 
@@ -407,7 +410,7 @@ h3 {
 .layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), #c3a2e5);
+    background: #c3a2e5db;
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -419,7 +422,7 @@ h3 {
     flex-direction: column;
     padding: 0 40px;
     text-align: center;
-    font-size: 14px;
+    font-size: 22px;
     transition: height 0.5s;
 }
 
@@ -657,13 +660,132 @@ textarea {
     justify-content: space-evenly;
     align-items: center;
 }
-.bxl-linkedin,.bxl-github {
+
+.bxl-linkedin,
+.bxl-github {
     font-size: 40px;
 }
 
-.fa-html5,.fa-css3,.fa-js,.fa-react,.fa-figma{
+.fa-html5,
+.fa-css3,
+.fa-js,
+.fa-react,
+.fa-figma {
     font-size: 60px;
 }
-.svg{
+
+.svg {
     height: 40px;
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .logo {
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+
+    .navbar a {
+        font-size: 20px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .home-content h1 {
+        font-size: 40px;
+    }
+
+    .home-content h3 {
+        font-size: 24px;
+    }
+
+    .btn-box {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+    .secondpage_container {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .secondpage_container-left, .secondpage_container-right {
+        width: 100%;
+    }
+
+    .secondpage_container-info, .cv {
+        font-size: 18px;
+    }
+
+    .cv-pic {
+        width: 100%;
+        height: auto;
+    }
+
+    .sub-title {
+        font-size: 40px;
+    }
+    .mySkills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skill{
+        margin: 0;
+        width: 350px;
+    }
+    .container-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #contact{
+        flex-direction: column;
+    }
+}
+
+/* Very small devices (phones, 600px and down) */
+@media (max-width: 600px) {
+    .navbar a {
+        font-size: 18px;
+        margin: 5px; /* Reduces space for very small screens */
+    }
+
+    .home-content h1 {
+        font-size: 32px;
+    }
+
+    .home-content h3 {
+        font-size: 20px;
+    }
+
+    .secondpage_container-info, .cv {
+        font-size: 16px;
+    }
+    
+    .mySkills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skill{
+        margin: 0;
+        width: 350px;
+    }
+    .container-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #contact{
+        flex-direction: column;
+    }
+    .home{
+        height: 40vh;
+        background-image: none;
+    }
 }

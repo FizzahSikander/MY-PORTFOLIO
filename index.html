@@ -18,14 +18,14 @@
     <header class="header">
         <a href="#" class="logo">Fizzah Sikander</a>
         <nav class="navbar">
-            <a href="#">Home </a>
-            <a href="#">About </a>
-            <a href="#">Skill </a>
-            <a href="#">Porfolio</a>
-            <a href="#">Contact</a>
+            <a href="#home">Home </a>
+            <a href="#second-page">About </a>
+            <a href="#sub-title">Skill </a>
+            <a href="#portfolio">Porfolio</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
-    <section class="home">
+    <section class="home" id="home">
         <div class="home-content">
             <h3>Hello,its me</h3>
             <h1>Fizzah Sikander</h1>
@@ -39,7 +39,7 @@
         </div>
         <span class="home-imgHover"></span>
     </section>
-    <section class="second-page">
+    <section class="second-page" id="second-page">
         <div class="secondpage_container">
             <div class="secondpage_container-left">
                 <div class="fa-3x">
@@ -48,14 +48,14 @@
                 <h2 class="secondpage_container-title">About Me</h2>
                 <p class="secondpage_container-info">I'm Fizzah Sikander, a junior Front End Developer currently
                     enrolled in
-                    a comprehensive program at Sundsgården Folkhögskolan. With a background in engineering and teaching,
+                    a YH program at Jensen Yrkeshögskolan. I have done an intensive front end development course in past fron Sundsgården folkhögskolan.With a background in engineering and teaching,
                     I
                     bring a methodical approach to problem-solving and effective communication to my work. I am
                     passionate
                     about designing and coding, and always eager to collaborate with fellow developers to enhance my
                     skills.
                 </p>
-                <p class="secondpage_container-info">As of June 5th, 2023, I am seeking an internship opportunity with a
+                <p class="secondpage_container-info">Now  I am seeking a summer internship opportunity and LIA place from 25th November with a
                     company where I can continue to grow and learn in a professional setting. I invite you to review my
                     profile and consider me as a valuable addition to your team. You can download my CV for a
                     comprehensive
@@ -73,10 +73,10 @@
         </div>
     </section>
 
-    <h1 class="sub-title">My <span>Skills</span></h1>
+    <h1 class="sub-title" id="sub-title">My <span>Skills</span></h1>
     <section>
         <div class="mySkills">
-            <div class="skill">
+            <ul class="skill">
                 <li>
                     <i class="fa-brands fa-html5"></i>
                     <h3>HTML</h3><span class="bar"><span class="html"></span></span>
@@ -89,8 +89,8 @@
                     <i class="fa-brands fa-js"></i>
                     <h3>JAVASCRIPT</h3><span class="bar"><span class="javascript"></span></span>
                 </li>
-            </div>
-            <div class="skill">
+            </ul>
+            <ul class="skill">
                 <li>
                     <i class="fa-brands fa-react"></i>
                     <h3>REACT</h3><span class="bar"><span class="react"></span></span>
@@ -99,7 +99,7 @@
                     <i class="fa-brands fa-figma"></i>
                     <h3>FIGMA</h3><span class="bar"><span class="javascript"></span></span>
                 </li>
-            </div>
+            </ul>
         </div>
         <h1 class="sub-title">My <span>Soft Skills</span></h1>
         <div class="container-block">
@@ -126,17 +126,17 @@
             </div>
         </div>
     </section>
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
         <div class="container">
             <h1 class="sub-title">My <span>Work</span></h1>
             <div class="work-list">
                 <div class="work">
                     <img src="images/DE_VE_DE.png">
                     <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>The app connects you to talented people around the world .Download it from playstore</p>
+                        <h3>Creat,Read,Update,Delete</h3>
+                        <p>A movie webpage that helps you to keep track of the movies.</p>
                         <span class="firstcard_skills"></span><span class="firstcard_skillsone"> |JavaScript| , |HTML| ,
-                            |CSS| </span>
+                            |CSS| |Firebase| </span>
                         <a href="https://movies-cc185.firebaseapp.com"><i
                                 class="fa-solid fa-arrow-up-right-from-square"></i></a>
                         <a href="https://github.com/FizzahSikander/DE-VA-DE"><i class="bx bxl-github"></i></a>
@@ -145,8 +145,10 @@
                 <div class="work">
                     <img src="images/Solaris.png">
                     <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>The app connects you to talented people around the world .Download it from playstore</p>
+                        <h3>Solar system</h3>
+                        <p>The webpage fetches the data from Api and shows information about the planets.</p>
+                        <span class="firstcard_skills"></span><span class="firstcard_skillsone"> |JavaScript| , |HTML| ,
+                            |CSS| |API's| </span>
                         <a href="https://github.com/FizzahSikander/exam"><i
                                 class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
@@ -155,7 +157,9 @@
                     <img src="images/Scrambled-Up.png">
                     <div class="layer">
                         <h3>Social Media App</h3>
-                        <p>The app connects you to talented people around the world .Download it from playstore</p>
+                        <p>A srammble up words game for developers </p>
+                        <span class="firstcard_skills"></span><span class="firstcard_skillsone"> |React| , |HTML| ,
+                            |CSS| </span>
                         <a href="https://github.com/FizzahSikander/scramble-game-1"><i
                                 class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
@@ -167,10 +171,22 @@
         <div class="container">
             <div class="work-list">
                 <div class="work">
+                    <img src="images/Tool Library.png">
+                    <div class="layer">
+                        <h3>Stickan's tool library</h3>
+                        <p>I have designed and developed an app from scratch on Figma and then programming it.</p>
+                        <span class="firstcard_skills"></span><span class="firstcard_skillsone"> |JavaScript| , |HTML| ,
+                            |CSS| |UX/UI| |Figma| </span>
+                        <a href="#"><i
+                                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <a href="https://github.com/FizzahSikander/BHROMAON"><i class="bx bxl-github"></i></a>
+                    </div>
+                </div>
+                <div class="work">
                     <img src="images/BONZ.AI.png">
                     <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>The app connects you to talented people around the world .Download it from playstore</p>
+                        <h3>Hotel Webpage</h3>
+                        <p>A responsive webpage designed for a hotel</p>
                         <span class="firstcard_skills"></span><span class="firstcard_skillsone"> |JavaScript| , |HTML| ,
                             |CSS| </span>
                         <a href="https://fizzahsikander.github.io/hotel-webpage/"><i
@@ -181,8 +197,8 @@
                 <div class="work">
                     <img src="images/BHROMAON.png">
                     <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>The app connects you to talented people around the world .Download it from playstore</p>
+                        <h3>BHROMAON</h3>
+                        <p>A reponsive webpage that takes you a little deeper into styling</p>
                         <span class="firstcard_skills"></span><span class="firstcard_skillsone"> |JavaScript| , |HTML| ,
                             |CSS| </span>
                         <a href="https://fizzahsikander.github.io/BHROMAON/"><i
@@ -195,7 +211,7 @@
     </div>
     <a href="https://github.com/FizzahSikander?tab=repositories" class="btn">See More </a>
     <section>
-        <div class="footer-skills">
+        <div class="footer-skills" >
             <h3 class="skills-heading">Learnings</h3>
             <div class="skills-code">
                 <div class="skills-code-first">
