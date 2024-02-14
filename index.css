@@ -378,7 +378,7 @@ h3 {
 }
 
 .portfolio {
-    padding: 50px 0;
+    padding: 20px 0;
     margin: 50px;
 }
 
@@ -420,7 +420,7 @@ h3 {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 40px;
+    padding: 0px;
     text-align: center;
     font-size: 22px;
     transition: height 0.5s;
@@ -428,7 +428,6 @@ h3 {
 
 .layer h3 {
     font-weight: 500;
-    margin-bottom: 20px;
 }
 
 .layer a {
