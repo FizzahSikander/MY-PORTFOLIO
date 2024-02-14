@@ -785,7 +785,10 @@ textarea {
         flex-direction: column;
     }
     .home{
-        height: 40vh;
+        height: 60vh;
         background-image: none;
+    }
+    .header{
+        display: none;
     }
 }
